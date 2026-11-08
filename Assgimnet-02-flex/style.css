@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3d3939;
+    padding: 23px 28px;
+}
+.heading{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.container {
+    width: 100%;
+    max-width: 1544px;
+    aspect-ratio: 1544 / 755;
+    margin: auto;
+
+    display: flex;
+    gap: 22px;
+}
+
+.box {
+    min-width: 0;
+    min-height: 0;
+}
+
+.red {
+    background-color: #f4433d;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.cyan {
+    background-color: #29bec9;
+}
+
+.yellow {
+    background-color: #d8b66b;
+}
+
+/* Left Section */
+.left {
+    width: 313px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.left .red {
+    height: 380px;
+    flex-shrink: 0;
+}
+
+.left .white {
+    flex: 1;
+}
+
+/* Right Section */
+.right {
+    flex: 1;
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+/* Top Section */
+.top {
+    height: 201px;
+    flex-shrink: 0;
+
+    display: flex;
+    gap: 23px;
+}
+
+.top .cyan {
+    flex: 536;
+}
+
+.top .yellow {
+    flex: 649;
+}
+
+/* Bottom Section */
+.bottom {
+    flex: 1;
+    min-height: 0;
+
+    display: flex;
+    gap: 23px;
+}
+
+/* Middle Content */
+.middle-content {
+    flex: 873;
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* Middle Row */
+.middle {
+    height: 287px;
+    flex-shrink: 0;
+
+    display: flex;
+    gap: 23px;
+}
+
+.middle .yellow {
+    flex: 313;
+}
+
+.middle .white {
+    flex: 536;
+}
+
+/* Bottom Row */
+.bottom-row {
+    flex: 1;
+    min-height: 0;
+
+    display: flex;
+    gap: 23px;
+}
+
+.bottom-row .red {
+    flex: 536;
+}
+
+.bottom-row .cyan {
+    flex: 314;
+}
+
+/* Right Red Box */
+.right-red {
+    flex: 313;
+}
+
